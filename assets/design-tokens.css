@@ -1,0 +1,70 @@
+:root {
+  --poster-dark: #262828;
+  --poster-paper: #f2eee5;
+  --poster-ink: #202322;
+  --poster-light-ink: #f5f1e8;
+  --poster-rule-dark: rgba(245, 241, 232, .24);
+  --poster-rule-paper: rgba(32, 35, 34, .22);
+
+  /* Starting category palette. Replace with the project's approved dictionary. */
+  --cat-cyan: #56a9bf;
+  --cat-blue: #39769b;
+  --cat-coral: #d96c64;
+  --cat-orange: #ce8a4a;
+  --cat-green: #8ca66c;
+  --cat-purple: #89679a;
+  --cat-yellow: #d6c95d;
+
+  --poster-width: 1242px;
+  --poster-height: 1660px;
+  --poster-margin: 72px;
+}
+
+* { box-sizing: border-box; }
+
+.poster {
+  width: var(--poster-width);
+  height: var(--poster-height);
+  overflow: hidden;
+}
+
+.poster--dark {
+  background: var(--poster-dark);
+  color: var(--poster-light-ink);
+}
+
+.poster--paper {
+  background: var(--poster-paper);
+  color: var(--poster-ink);
+}
+
+.poster__inner {
+  height: 100%;
+  padding: var(--poster-margin);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.poster__rule {
+  height: 2px;
+  background: currentColor;
+  opacity: .3;
+}
+
+.poster__meta {
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 700;
+}
+
+.poster__title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  line-height: .94;
+}
+
+.poster__footer {
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  font-size: 22px;
+}
