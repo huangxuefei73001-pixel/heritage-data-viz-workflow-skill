@@ -7,7 +7,19 @@ This Skill is for heritage and World Heritage projects where the real problem is
 
 它适合处理多年观察报告、文章库、世界遗产大会资料、HIA / SOC / 研究报告等信息量较大的资料：先建立分类与证据结构，再选择真正能说明问题的视觉形式，最后组成 Poster。
 
-![Four poster archetypes derived from the Observation Report visual system](examples/final-samples/showcase.jpg)
+## Preview / 预览
+
+All previews below are deterministic SVG examples stored in this repository, so they remain sharp and inspectable on GitHub.
+
+下列预览均为仓库内的确定性 SVG 样例，在 GitHub 中可直接预览、放大和检查，不依赖外部图片链接。
+
+| Radial chronology / 径向时间 | Metric summary / 关键数字 | Relationship flow / 关系流向 |
+| --- | --- | --- |
+| ![Radial chronology sample](examples/01-radial-wheel.svg) | ![Metric summary sample](examples/02-metric-summary.svg) | ![Relationship flow sample](examples/03-relationship-flow.svg) |
+
+| Split field / 分栏构图 | Context back / 背面信息 |
+| --- | --- |
+| ![Split-field sample](examples/04-split-field.svg) | ![Context-back sample](examples/05-context-back.svg) |
 
 ## Core idea / 核心思路
 
@@ -29,7 +41,7 @@ Poster 是最后一步，不是第一步。
 
 ## What it produces / 可形成的输出
 
-The Skill prioritises a small set of visual mechanisms that each answer a distinct research question:
+The Skill prioritises a small set of visual mechanisms that each answer a distinct research question.
 
 ### 1. Radial chronology / 径向时间图
 
@@ -37,7 +49,7 @@ For **time + recurrence + thematic density**.
 
 适合表现多年变化、届次节奏、不同主题在时间中的出现密度。
 
-![Radial chronology sample](examples/final-samples/01-sample.jpg)
+[Open the radial chronology sample →](examples/01-radial-wheel.svg)
 
 ### 2. Metric summary / 关键数字总览
 
@@ -45,23 +57,23 @@ For communicating **scale before detail** with only a few high-value numbers.
 
 适合先让读者理解项目规模，再进入复杂信息。
 
-![Metric summary sample](examples/final-samples/02-sample.jpg)
+[Open the metric summary sample →](examples/02-metric-summary.svg)
 
-### 3. Partial radial / split field / 局部径向与分栏构图
-
-For combining a strong title/access field with a dense circular evidence visual.
-
-适合把项目身份、二维码/入口与复杂数据图放在同一张 Poster 中。
-
-![Partial radial sample](examples/final-samples/03-sample.jpg)
-
-### 4. Sankey / alluvial / 桑基图与流向图
+### 3. Sankey / alluvial / relationship flow / 桑基图、流向与关系图
 
 For **relationships between categorical dimensions**, such as theme → year/session or theme → host country.
 
 适合解释主题、年份、国家、来源或其他分类之间的关系，而不是只展示数量。
 
-![Sankey sample](examples/final-samples/04-sample.jpg)
+[Open the relationship-flow sample →](examples/03-relationship-flow.svg)
+
+### 4. Partial radial / split field / 局部径向与分栏构图
+
+For combining a strong title/access field with a dense circular evidence visual.
+
+适合把项目身份、入口与复杂数据图放在同一张 Poster 中，同时保持信息层级。
+
+[Open the split-field sample →](examples/04-split-field.svg)
 
 ## Front / back logic / 正反面逻辑
 
@@ -69,7 +81,7 @@ For postcard or two-sided poster formats, the front carries the visual argument;
 
 如果是明信片或双面 Poster，正面负责“看见关系”，背面负责“理解项目”：项目简介、线性时间轴、来源、设计署名与访问入口。
 
-![Back-side context sample](examples/final-samples/05-back-context.jpg)
+[Open the context-back sample →](examples/05-context-back.svg)
 
 ## Workflow / 工作流
 
@@ -114,22 +126,23 @@ Publication still requires human review of:
 ├── SKILL.md
 ├── README.md
 ├── README.zh-CN.md
+├── SHOWCASE.md
 ├── agents/
 │   └── openai.yaml
 ├── assets/
 │   ├── design-tokens.css
 │   └── poster-shell.html
 ├── references/
-│   ├── design-language.md
-│   └── data-to-poster-method.md
+│   ├── data-to-poster.md
+│   ├── visual-grammar.md
+│   └── reference-project.md
 └── examples/
-    └── final-samples/
-        ├── showcase.jpg
-        ├── 01-sample.jpg
-        ├── 02-sample.jpg
-        ├── 03-sample.jpg
-        ├── 04-sample.jpg
-        └── 05-back-context.jpg
+    ├── README.md
+    ├── 01-radial-wheel.svg
+    ├── 02-metric-summary.svg
+    ├── 03-relationship-flow.svg
+    ├── 04-split-field.svg
+    └── 05-context-back.svg
 ```
 
 ## Example prompts / 示例调用
@@ -144,9 +157,9 @@ Use $heritage-data-viz-workflow to turn this multi-year observation-report datas
 
 ## Sample-use note / 样例说明
 
-The poster images in `examples/final-samples/` are project outputs supplied as visual references for this Skill. Institutional names, logos and QR codes shown in those images belong to their original project context and are **not reusable design assets**.
+The SVG files in `examples/` are deterministic visual-grammar samples for demonstrating how the Skill works. They are not substitutes for the original project evidence and do not fabricate project-specific data relationships.
 
-`examples/final-samples/` 中的 Poster 来自项目实际输出，仅用于说明本 Skill 的视觉语法。图片中的机构名称、Logo 与二维码属于原项目语境，**不作为可复用设计素材授权**。
+`examples/` 中的 SVG 是用于说明 Skill 工作方式的确定性视觉语法样例，不替代原项目证据，也不虚构具体项目的数据关系。
 
 ## Completion standard / 完成标准
 
