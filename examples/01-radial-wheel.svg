@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440" role="img" aria-labelledby="t d">
+<title id="t">Radial theme wheel grammar sample</title>
+<desc id="d">A dark research poster with a multi-ring radial structure, seven category colours, year labels, and a note that the marks are schematic rather than record-level data.</desc>
+<rect width="1080" height="1440" fill="#272a29"/>
+<style>
+  .sans{font-family:Arial,'Helvetica Neue',sans-serif;fill:#f2efe6}.muted{fill:#aeb4b0}.rule{stroke:#f2efe6;stroke-opacity:.18;fill:none}.yr{font:700 18px Arial,'Helvetica Neue',sans-serif;fill:#f2efe6}.meta{font:700 17px Arial,'Helvetica Neue',sans-serif;letter-spacing:1.2px}.small{font:16px Arial,'Helvetica Neue',sans-serif}.title{font:700 42px Arial,'Helvetica Neue',sans-serif}
+</style>
+<text x="60" y="72" class="sans meta" fill="#d39a3a">HERITAGE DATA VIZ WORKFLOW · SAMPLE 01</text>
+<text x="60" y="128" class="sans title">RADIAL THEME WHEEL</text>
+<text x="60" y="162" class="sans small muted">Repeated periods × recurring thematic categories</text>
+<line x1="60" y1="192" x2="1020" y2="192" class="rule"/>
+<g transform="translate(540 670)">
+  <circle r="318" class="rule"/><circle r="282" class="rule"/><circle r="246" class="rule"/><circle r="210" class="rule"/><circle r="174" class="rule"/><circle r="138" class="rule"/><circle r="102" class="rule"/>
+  <!-- Schematic category marks; not record-level data -->
+  <g fill="none" stroke-linecap="butt" stroke-width="18">
+    <circle r="318" stroke="#59aebf" stroke-dasharray="90 45 50 30 120 70 60 40 110 95" transform="rotate(-92)"/>
+    <circle r="282" stroke="#8d6ca5" stroke-dasharray="65 52 35 70 100 38 48 90 72 55" transform="rotate(-63)"/>
+    <circle r="246" stroke="#dd755f" stroke-dasharray="82 45 58 64 42 80 96 35 55 68" transform="rotate(-34)"/>
+    <circle r="210" stroke="#79a37c" stroke-dasharray="55 34 110 58 48 70 76 44 60 62" transform="rotate(-5)"/>
+    <circle r="174" stroke="#d39a3a" stroke-dasharray="45 40 65 48 88 30 52 66 70 58" transform="rotate(24)"/>
+    <circle r="138" stroke="#bd768e" stroke-dasharray="52 30 42 62 76 44 58 40 70 48" transform="rotate(53)"/>
+    <circle r="102" stroke="#c5d36f" stroke-dasharray="40 28 52 36 66 30 44 38 56 42" transform="rotate(82)"/>
+  </g>
+  <circle r="64" fill="#f2efe6"/><text y="-7" text-anchor="middle" class="sans meta" fill="#272a29">7 THEMES</text><text y="20" text-anchor="middle" class="sans small" fill="#272a29">2013–2025</text>
+  <g class="yr"><text x="-23" y="-345">2025</text><text x="262" y="-202">2023</text><text x="295" y="183">2021</text><text x="-24" y="374">2019</text><text x="-338" y="180">2017</text><text x="-337" y="-193">2015</text></g>
+</g>
+<g transform="translate(70 1088)" class="sans small">
+  <circle cx="6" cy="0" r="6" fill="#59aebf"/><text x="24" y="6">Theme A</text>
+  <circle cx="148" cy="0" r="6" fill="#8d6ca5"/><text x="166" y="6">Theme B</text>
+  <circle cx="290" cy="0" r="6" fill="#dd755f"/><text x="308" y="6">Theme C</text>
+  <circle cx="432" cy="0" r="6" fill="#79a37c"/><text x="450" y="6">Theme D</text>
+  <circle cx="574" cy="0" r="6" fill="#d39a3a"/><text x="592" y="6">Theme E</text>
+  <circle cx="716" cy="0" r="6" fill="#bd768e"/><text x="734" y="6">Theme F</text>
+  <circle cx="858" cy="0" r="6" fill="#c5d36f"/><text x="876" y="6">Theme G</text>
+</g>
+<line x1="60" y1="1160" x2="1020" y2="1160" class="rule"/>
+<text x="60" y="1210" class="sans meta">VISUAL QUESTION</text>
+<text x="60" y="1252" class="sans" font-family="Arial" font-size="30">How does thematic attention recur and change across repeated cycles?</text>
+<text x="60" y="1320" class="sans small muted">STRUCTURE DEMO · Ring marks are schematic and do not claim record-level counts.</text>
+<text x="1020" y="1370" text-anchor="end" class="sans meta" fill="#d39a3a">01 / 03</text>
+</svg>
