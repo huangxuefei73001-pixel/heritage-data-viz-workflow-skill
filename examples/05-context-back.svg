@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">Context back-side poster grammar sample</title>
+<desc id="desc">A deterministic sample showing how the reverse side of a poster carries chronology, provenance, context, and access information.</desc>
+<rect width="1400" height="900" fill="#F3EFE6"/>
+<style>.sans{font-family:Arial,'Helvetica Neue',sans-serif;fill:#171A17}.serif{font-family:Georgia,'Times New Roman',serif;fill:#171A17}.muted{fill:#6D6C67}.rule{stroke:#8E8A82;stroke-width:1}.accent{fill:#267259}</style>
+<text x="70" y="92" class="sans" font-size="20" font-weight="700" letter-spacing="2">HERITAGE DATA VIZ WORKFLOW · SAMPLE 05</text>
+<line x1="70" y1="120" x2="1330" y2="120" class="rule"/>
+<text x="70" y="225" class="serif" font-size="70">Context lives on the reverse.</text>
+<text x="70" y="278" class="sans" font-size="28" fill="#6D6C67">背面负责解释项目，而不是重复正面的数据故事。</text>
+<text x="70" y="380" class="sans" font-size="17" font-weight="700" fill="#267259" letter-spacing="1.5">CHRONOLOGY / 时间线</text>
+<line x1="110" y1="465" x2="1280" y2="465" stroke="#171A17" stroke-width="2"/>
+<g class="sans" font-size="20">
+<circle cx="170" cy="465" r="9" class="accent"/><text x="145" y="515">2013</text>
+<circle cx="420" cy="465" r="9" class="accent"/><text x="395" y="515">2016</text>
+<circle cx="670" cy="465" r="9" class="accent"/><text x="645" y="515">2019</text>
+<circle cx="920" cy="465" r="9" class="accent"/><text x="895" y="515">2022</text>
+<circle cx="1170" cy="465" r="9" class="accent"/><text x="1145" y="515">2025</text>
+</g>
+<rect x="70" y="605" width="540" height="150" fill="#E8E2D8"/>
+<text x="100" y="650" class="sans" font-size="17" font-weight="700" letter-spacing="1.5">CONTEXT / 项目说明</text>
+<text x="100" y="695" class="sans" font-size="22">Short description · scope · date range</text>
+<text x="100" y="730" class="sans" font-size="20" fill="#6D6C67">简短背景、范围与时间区间。</text>
+<rect x="650" y="605" width="680" height="150" fill="#E8E2D8"/>
+<text x="680" y="650" class="sans" font-size="17" font-weight="700" letter-spacing="1.5">PROVENANCE / 来源与访问</text>
+<text x="680" y="695" class="sans" font-size="22">Source · credits · public link · QR</text>
+<text x="680" y="730" class="sans" font-size="20" fill="#6D6C67">来源、署名与真实公共入口。</text>
+<line x1="70" y1="825" x2="1330" y2="825" class="rule"/>
+<text x="70" y="860" class="sans" font-size="18" fill="#6D6C67">SECOND SIDE · CONTEXT + CHRONOLOGY + PROVENANCE</text>
+</svg>
