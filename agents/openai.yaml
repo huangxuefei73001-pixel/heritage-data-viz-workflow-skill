@@ -1,0 +1,7 @@
+interface:
+  display_name: "Heritage Data Viz Workflow"
+  short_description: "将遗产大数据整理为证据型可视化与 Poster"
+  brand_color: "#262828"
+  default_prompt: "Use $heritage-data-viz-workflow to turn this heritage corpus into a traceable visual argument and poster-grade output. Audit and classify the data before choosing the visual form."
+policy:
+  allow_implicit_invocation: true
