@@ -7,19 +7,49 @@ This Skill is for heritage and World Heritage projects where the real problem is
 
 它适合处理多年观察报告、文章库、世界遗产大会资料、HIA / SOC / 研究报告等信息量较大的资料：先建立分类与证据结构，再选择真正能说明问题的视觉形式，最后组成 Poster。
 
-## Preview / 预览
+## Showcase / 预览
 
-All previews below are deterministic SVG examples stored in this repository, so they remain sharp and inspectable on GitHub.
+The examples below are deterministic SVG outputs stored in this repository. They can be viewed directly on the GitHub homepage, enlarged without raster blur, and inspected as reproducible visual structures.
 
-下列预览均为仓库内的确定性 SVG 样例，在 GitHub 中可直接预览、放大和检查，不依赖外部图片链接。
+下列样例均为仓库内的确定性 SVG 输出，可直接在 GitHub 首页预览；放大不会像 JPG 一样模糊，也可以进一步检查其可重复的视觉结构。
 
-| Radial chronology / 径向时间 | Metric summary / 关键数字 | Relationship flow / 关系流向 |
-| --- | --- | --- |
-| ![Radial chronology sample](examples/01-radial-wheel.svg) | ![Metric summary sample](examples/02-metric-summary.svg) | ![Relationship flow sample](examples/03-relationship-flow.svg) |
+<table>
+<tr>
+<td width="33%" valign="top">
+<strong>01 · Radial chronology / 径向时间图</strong><br><br>
+<img src="examples/01-radial-wheel.svg" alt="Radial chronology visual sample" width="100%"><br><br>
+Time × recurrence × thematic density<br>
+时间 × 重复出现 × 主题密度
+</td>
+<td width="33%" valign="top">
+<strong>02 · Metric summary / 关键数字总览</strong><br><br>
+<img src="examples/02-metric-summary.svg" alt="Metric summary visual sample" width="100%"><br><br>
+Scale before detail<br>
+先理解规模，再进入细节
+</td>
+<td width="33%" valign="top">
+<strong>03 · Relationship flow / 关系流向</strong><br><br>
+<img src="examples/03-relationship-flow.svg" alt="Relationship flow visual sample" width="100%"><br><br>
+Relationships between categories<br>
+分类之间的关系
+</td>
+</tr>
+</table>
 
-| Split field / 分栏构图 | Context back / 背面信息 |
-| --- | --- |
-| ![Split-field sample](examples/04-split-field.svg) | ![Context-back sample](examples/05-context-back.svg) |
+<table>
+<tr>
+<td width="50%" valign="top">
+<strong>04 · Split field / 分栏构图</strong><br><br>
+<img src="examples/04-split-field.svg" alt="Split-field poster composition sample" width="100%">
+</td>
+<td width="50%" valign="top">
+<strong>05 · Context back / 背面信息</strong><br><br>
+<img src="examples/05-context-back.svg" alt="Context and provenance back-side sample" width="100%">
+</td>
+</tr>
+</table>
+
+[Open the full showcase →](SHOWCASE.md) · [查看完整预览 →](SHOWCASE.md)
 
 ## Core idea / 核心思路
 
