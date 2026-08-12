@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440" role="img" aria-labelledby="t d">
+<title id="t">Relationship flow grammar sample</title>
+<desc id="d">A warm paper research poster showing thematic categories on the left, years on the right, and schematic connecting paths illustrating the composition of a theme-to-period relationship flow.</desc>
+<rect width="1080" height="1440" fill="#f2efe6"/>
+<style>
+ .s{font-family:Arial,'Helvetica Neue',sans-serif;fill:#202321}.m{fill:#666b67}.meta{font:700 17px Arial,'Helvetica Neue',sans-serif;letter-spacing:1.2px}.lab{font:700 19px Arial,'Helvetica Neue',sans-serif}.body{font:18px Arial,'Helvetica Neue',sans-serif}.rule{stroke:#202321;stroke-opacity:.22}.node{stroke:#202321;stroke-opacity:.18;stroke-width:1}
+</style>
+<text x="62" y="72" class="s meta" fill="#2f7182">HERITAGE DATA VIZ WORKFLOW · SAMPLE 03</text>
+<text x="62" y="132" class="s" font-size="48" font-weight="700">RELATIONSHIP FLOW</text>
+<text x="62" y="172" class="s body m">Theme ↔ period · composition and reading grammar</text>
+<line x1="62" y1="210" x2="1018" y2="210" class="rule"/>
+<text x="62" y="270" class="s meta">THEMES</text><text x="830" y="270" class="s meta">PERIOD / CONTEXT</text>
+<g class="s lab">
+ <rect x="62" y="306" width="252" height="64" fill="#c5d36f" class="node"/><text x="82" y="346">List Management</text><text x="286" y="346" text-anchor="end">58</text>
+ <rect x="62" y="388" width="252" height="64" fill="#b7d9df" class="node"/><text x="82" y="428">Annual Highlights</text><text x="286" y="428" text-anchor="end">42</text>
+ <rect x="62" y="470" width="252" height="64" fill="#e38a72" class="node"/><text x="82" y="510">Forums &amp; Events</text><text x="286" y="510" text-anchor="end">25</text>
+ <rect x="62" y="552" width="252" height="64" fill="#9b82ae" class="node"/><text x="82" y="592">Thematic Research</text><text x="286" y="592" text-anchor="end">23</text>
+ <rect x="62" y="634" width="252" height="64" fill="#8ea2bb" class="node"/><text x="82" y="674">Convention Mechanisms</text><text x="286" y="674" text-anchor="end">19</text>
+ <rect x="62" y="716" width="252" height="64" fill="#c88aa0" class="node"/><text x="82" y="756">State of Conservation</text><text x="286" y="756" text-anchor="end">17</text>
+ <rect x="62" y="798" width="252" height="64" fill="#d4d477" class="node"/><text x="82" y="838">Convention Priorities</text><text x="286" y="838" text-anchor="end">13</text>
+</g>
+<g class="s body">
+ <rect x="830" y="306" width="188" height="52" fill="#c9d29c" class="node"/><text x="846" y="338">2013</text>
+ <rect x="830" y="374" width="188" height="52" fill="#c27c89" class="node"/><text x="846" y="406">2014</text>
+ <rect x="830" y="442" width="188" height="52" fill="#b9c9c7" class="node"/><text x="846" y="474">2015</text>
+ <rect x="830" y="510" width="188" height="52" fill="#c1b29f" class="node"/><text x="846" y="542">2016</text>
+ <rect x="830" y="578" width="188" height="52" fill="#e0d88b" class="node"/><text x="846" y="610">2017</text>
+ <rect x="830" y="646" width="188" height="52" fill="#c98f72" class="node"/><text x="846" y="678">2018</text>
+ <rect x="830" y="714" width="188" height="52" fill="#a68175" class="node"/><text x="846" y="746">2019</text>
+ <rect x="830" y="782" width="188" height="52" fill="#779b84" class="node"/><text x="846" y="814">2021</text>
+ <rect x="830" y="850" width="188" height="52" fill="#ae8b67" class="node"/><text x="846" y="882">2023</text>
+ <rect x="830" y="918" width="188" height="52" fill="#e1c87b" class="node"/><text x="846" y="950">2024</text>
+ <rect x="830" y="986" width="188" height="52" fill="#bd82a5" class="node"/><text x="846" y="1018">2025</text>
+</g>
+<!-- Schematic links: composition only, not record-level link weights -->
+<g fill="none" stroke-linecap="round" stroke-width="5" opacity=".38">
+ <path d="M314 338 C510 338 650 332 830 332" stroke="#9caf52"/><path d="M314 338 C540 350 650 456 830 468" stroke="#9caf52"/><path d="M314 338 C560 370 650 735 830 740" stroke="#9caf52"/><path d="M314 338 C570 420 690 1000 830 1012" stroke="#9caf52"/>
+ <path d="M314 420 C520 420 660 394 830 400" stroke="#59aebf"/><path d="M314 420 C520 455 660 600 830 604" stroke="#59aebf"/><path d="M314 420 C550 490 680 870 830 876" stroke="#59aebf"/>
+ <path d="M314 502 C520 500 660 530 830 536" stroke="#dd755f"/><path d="M314 502 C540 550 680 680 830 672" stroke="#dd755f"/><path d="M314 502 C550 640 700 920 830 944" stroke="#dd755f"/>
+ <path d="M314 584 C540 575 690 804 830 808" stroke="#8d6ca5"/><path d="M314 584 C540 670 690 980 830 1012" stroke="#8d6ca5"/>
+ <path d="M314 666 C520 650 650 740 830 740" stroke="#6f88a2"/><path d="M314 748 C545 748 680 870 830 876" stroke="#bd768e"/><path d="M314 830 C555 830 700 940 830 944" stroke="#c2bd53"/>
+</g>
+<line x1="62" y1="1112" x2="1018" y2="1112" class="rule"/>
+<text x="62" y="1160" class="s meta">READING RULE</text>
+<text x="62" y="1206" class="s" font-size="30">Verified links should turn a dense archive into a visible relationship.</text>
+<text x="62" y="1260" class="s body m">This SVG demonstrates layout grammar only. Connection paths are schematic; do not interpret their widths or endpoints as record-level evidence.</text>
+<text x="62" y="1320" class="s body m">Theme totals shown at left reproduce the supplied reference poster's published category totals.</text>
+<text x="1018" y="1380" text-anchor="end" class="s meta" fill="#2f7182">03 / 03</text>
+</svg>
